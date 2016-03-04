@@ -10,7 +10,6 @@ var Prompt = React.createClass({
     username: PropTypes.string.isRequired,
   },
   render: function() {
-    console.log("prompt component", this)
     return (
       <div
         className="jumbotron col-sm-6 col-sm-offset-3 text-center"
